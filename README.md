@@ -1,2 +1,2 @@
 # Web-Dev-ZTM
-Udemy course to improve my skills in web development
+Improving my web development skills 
