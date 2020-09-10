@@ -1,0 +1,34 @@
+/* CSS KOODI
+Selector {
+    Property: value;
+}*/
+
+body {
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: crosshair;
+
+}
+
+p {
+    color: pink;
+}                                   /* koska css = cascading style sheets (cascade = mennä alaspäin, esim
+                                        vesiputous) niin sen sijaan että teksti olisi pinkki, se onkin vihreä koska
+                                        css ensin laitaa h2 vihreäksi, sitten paragraph <p> tagin pinkiksi
+                                        ja sitten uudestaan <p> tagin vihreäksi koska se "cascadee" eli
+                                        menee alaspäin vaiheittain */
+
+p {
+    color: green;
+}
+
+li {
+    list-style: none;
+}
+
