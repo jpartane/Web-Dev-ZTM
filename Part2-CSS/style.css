@@ -1,34 +1,64 @@
-/* CSS KOODI
+/* CSS KOODI RAKENNE
 Selector {
     Property: value;
 }*/
+
+* {
+    text-align: right;
+}
 
 body {
     background-image: url(../img/background.jpeg);
     background-size: cover;
 }
 
-h2 {
-    color: red;
+p {
+    color: #550800;
     text-align: center;
-    border: 5px solid purple;
-    cursor: crosshair;
+    border: 5px solid rgb(255,172,177);
+    cursor: pointer;
 
 }
 
 p {
-    color: pink;
-}                                   /* koska css = cascading style sheets (cascade = mennä alaspäin, esim
-                                        vesiputous) niin sen sijaan että teksti olisi pinkki, se onkin vihreä koska
-                                        css ensin laitaa h2 vihreäksi, sitten paragraph <p> tagin pinkiksi
-                                        ja sitten uudestaan <p> tagin vihreäksi koska se "cascadee" eli
-                                        menee alaspäin vaiheittain */
+   line-height: 30px;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 100%;
+   font-family: 'Source Sans Pro', sans-serif;
+}                                  
 
 p {
-    color: green;
+    color:black;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 40px;
 }
 
 li {
     list-style: none;
+    display: inline-block;
 }
 
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
