@@ -4,7 +4,9 @@ h1 {
 }
 
 .robots {
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -25,7 +27,7 @@ h1 {
 } 
 
 .eyes {
-	position: relative;
+	display: flex;
 	
 }
 
@@ -36,7 +38,6 @@ h1 {
 
 .upper_body { 
 	width: 300px;
-	margin: 0 auto;
 	height: 150px;
 	display: flex; 
 } 
@@ -59,7 +60,6 @@ h1 {
 	width: 200px; 
 	height: 200px;
 	border-radius: 0 0 50px 50px;
-	margin: 0 auto;
 } 
 
 .lower_body { 
@@ -67,6 +67,7 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	display: flex;
 
 } 
 
@@ -77,7 +78,7 @@ h1 {
 } 
 
 .left_leg { 
-	margin-left: 35px; 
+	margin-left: 45px; 
 } 
 
 .left_leg:hover {
@@ -89,7 +90,7 @@ h1 {
 }
 
 .right_leg { 
-	margin-left: 135px;
+	margin-left: 30px;
 	
 }
 
@@ -103,13 +104,13 @@ h1 {
 .left_eye { 
 	/* These properties are new and you haven't encountered
 	in this course. Check out CSS Tricks to see what it does! */
-	position: absolute;
+	position: relative;
 	top: 100px; 
 	left: 40px; 
 } 
 
 .right_eye { 
-	position: absolute;
+	position: relative;
 	top: 100px; 
 	left: 120px;
 	/* right: -40px; */
